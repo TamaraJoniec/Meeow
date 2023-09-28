@@ -1,76 +1,11 @@
-# Nuxt 3 Minimal Starter
+# Meeow Project 🐱
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Welcome to the Meeow Project! This project is part of an internship, and it's all about creating a vibrant and engaging business networking platform, aiming to connect businesses worldwide. The platform is being developed by translating a Figma mockup into a fully functional web application using Vue.js, Nuxt.js, and Tailwind CSS
 
-## Setup
+## Overview 🌐
+Meeow is a state-of-the-art business networking platform designed to foster connections, collaborations, and communications between businesses. It strives to provide an intuitive and interactive user experience, allowing businesses to explore partnerships, share insights, and grow together.
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# Meeow
+## Tech Stack 🛠️
+* Vue.js: Progressive JavaScript Framework for building user interfaces
+* Nuxt.js: Vue.js framework for creating Universal Vue.js Applications
+* Tailwind CSS: A utility-first CSS framework for rapid UI development
