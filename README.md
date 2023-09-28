@@ -9,3 +9,6 @@ Meeow is a state-of-the-art business networking platform designed to foster conn
 * Vue.js: Progressive JavaScript Framework for building user interfaces
 * Nuxt.js: Vue.js framework for creating Universal Vue.js Applications
 * Tailwind CSS: A utility-first CSS framework for rapid UI development
+
+## Demo
+![Screenshot](assets/ScreenshotMeeow.png)
