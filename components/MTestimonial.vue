@@ -1,3 +1,6 @@
+<script setup lang='ts'>
+
+</script>
 <template>
     <div class='relative flex flex-row h-100 my-20 pr-24 pb-28 '>
         <h3 class="text-white text-4xl">Success stories</h3>
