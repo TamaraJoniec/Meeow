@@ -12,4 +12,15 @@ Meeow is a state-of-the-art business networking platform designed to foster conn
 * TypeScript: Superset of JavaScript that adds static types
 
 ## Demo
+Check out the live app here: https://tamarajoniec.github.io/Meeow/
+
 ![Screenshot](assets/ScreenshotMeeow.png)
+
+## Credits
+
+Many thanks to the team at Meeow for letting me implement their beautiful design.
+
+Special thanks to:
+
+* Simon Glenn for providing excellent guidance and support throughout this project.
+* Maisie for her invaluable help and collaboration.
