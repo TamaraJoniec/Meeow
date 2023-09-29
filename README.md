@@ -18,9 +18,7 @@ Check out the live app here: https://tamarajoniec.github.io/Meeow/
 
 ## Credits
 
-Many thanks to the team at Meeow for letting me implement their beautiful design.
-
 Special thanks to:
 
-* Simon Glenn for providing excellent guidance and support throughout this project.
-* Maisie for her invaluable help and collaboration.
+* Simon Glenn at Meeow for letting me implement his beautiful design.
+* Maisie for providing excellent guidance and support throughout this project.
