@@ -2,7 +2,7 @@
 
 </script>
 
-<template>
+<template class="overflow-hidden w-screen">
     <div>
         <m-nav />
         <m-header />
@@ -29,15 +29,20 @@
                 </div>
                 <m-laptop class="items-end mr-10 mt-20 z-[10]"></m-laptop>
             </section>
-            <div
-                class="bg-meeow-blue rounded-[50%] w-[500vw] lg:w-[180vw] h-[150%] absolute -left-[200vw] lg:-left-[40vw] bg-circle">
-                <div class="flex flex-col flex-1 items-center mt-20 text-white text-2xl">
-                    <h1>How can Meeow change your business forever?</h1>
-                    <img src="@/assets/poster.jpeg" class="rounded-sm mt-10 w-100 h-80 px-40" />
-                    
-                    <m-testimonial />
+            <div class="overflow-x-hidden w-screen">
+                <div class="bg-meeow-blue rounded-[50%] w-[180vw] h-[150%] bg-circle relative right-[40%]">
+                    <div class="flex flex-col flex-1 items-center mt-35 pt-20 text-white text-2xl">
+                        <h1>How can Meeow change your business forever?</h1>
+                        <img src="@/assets/poster.jpeg" class="rounded-sm mt-10 w-100 h-80 px-40" />
+                        <m-testimonial />
+                    </div>
                 </div>
             </div>
+
+            <m-carroussel class="max-w-screen absolute bottom-0" />
         </main>
     </div>
 </template>
+
+<style scoped>
+</style>

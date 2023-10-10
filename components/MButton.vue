@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const props = defineProps<{
 color: string;
-textColor: 'black' | 'blue' | 'white' | 'green' | 'purple' | 'red' | 'grey' | 'accent' | 'unset';
+textColor?: string;
 outline?: Boolean;
 }>();
 </script>
