@@ -1,9 +1,6 @@
 
 <script setup lang="ts">
 import { meeows } from './meeows';
-
-
-
 </script>
 
 <template>

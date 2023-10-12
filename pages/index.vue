@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+
 </script>
 
 <template class="overflow-hidden w-screen">
@@ -7,7 +8,7 @@
         <m-nav />
         <m-header />
         <div class="relative">
-            <section class="flex space-x-64 m-20">
+            <section class="flex space-x-64 m-16">
                 <div class="flex-col items-start text-left mt-20 text-grey z-1 pl-10">
                     <p class='text-6xl font-bold'>Make new connections.
                         <br /> Find new clients.
@@ -30,8 +31,23 @@
             </section>
             <m-blue-background />
         </div>
-        <m-carroussel class="max-w-screen relative bottom-0" />
+        <!-- carousel -->
+        <div class="mt-32 mx-20">
+            <div class="flex flex-row mx-10">
+                <p class="text-2xl font-semibold ml-10">Lots of networking opportunities… every day</p>
+                <m-button2 class="bg-meeow-green text-white ml-10">See all</m-button2>
+            </div>
+            <m-carroussel class="max-w-screen relative bottom-0" />
+        </div>
         <m-slides />
+        <div class="overflow-hidden h-[100vh] relative">
+            <div class=" bg-meeow-blue rounded-[50%] w-[180vw] h-[180vh] z-1 bg-circle relative right-[40%]">
+
+
+            </div>
+            <div class="bg-meeow-blue w-full max-w-screen h-[50vh] absolute bottom-0 z-0">
+            </div>
+        </div>
     </div>
 </template>
 

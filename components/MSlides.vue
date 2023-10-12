@@ -1,5 +1,6 @@
+
 <template>
-    <div class="mt-60 space-y-80">
+    <div class="my-60 space-y-80">
         <!-- first slide -->
         <div class="flex flex-row justify-center items-center space-x-60">
             <p class="text-4xl semifont-bold max-w-sm">How do you meet new connections on Meeow?</p>

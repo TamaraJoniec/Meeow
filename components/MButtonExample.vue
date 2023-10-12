@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // Imported icon file (but you could also use <icons-icon-spinner /> without importing)
-import IconSpinner from '~/components/icons/IconSpinner.vue';
+// import IconSpinner from '~/components/icons/IconSpinner.vue';
 
 // Take a look at NuxtLink and Nuxt Routing
     // In Nuxt, instead of using an <a> element, we can use <nuxt-link> which is transpiled into an <a> element when built and automatically takes care of the routes for us. Clicking an <a> link will also reload the page by default but a <nuxt-link> uses SSR to load the new page without refreshing everything
@@ -255,7 +255,7 @@ defineExpose({
           'justify-center': !textAlign || textAlign === 'center',
         }"
       >
-        <icon-spinner class="animate-spin h-5 w-5" />
+        <!-- <icon-spinner class="animate-spin h-5 w-5" /> -->
       </div>
     </div>
   </component>
