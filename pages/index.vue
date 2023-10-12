@@ -40,12 +40,20 @@
             <m-carroussel class="max-w-screen relative bottom-0" />
         </div>
         <m-slides />
-        <div class="overflow-hidden h-[100vh] relative">
-            <div class=" bg-meeow-blue rounded-[50%] w-[180vw] h-[180vh] z-1 bg-circle relative right-[40%]">
-
-
+        <div class="overflow-hidden h-[100vh] pb-20 relative">
+            <div class=" bg-meeow-blue rounded-[50%] w-[180vw] h-[180vh] bg-circle relative right-[40%]">
             </div>
-            <div class="bg-meeow-blue w-full max-w-screen h-[50vh] absolute bottom-0 z-0">
+            <div class="bg-meeow-blue w-full max-w-screen absolute bottom-0">
+                <div class="flex flex-col justify-center items-center text-center text-white space-y-10 relative z-10">
+                    <p class="text-5xl max-w-lg">Business and networking is all about team-work.</p>
+                    <p class="max-w-5xl font-light">Meeow is open to all, no matter how long you’ve been in business or
+                        whether you’ve been networking
+                        before. Just bring yourself, your positive attitude and a desire to help others, and our community
+                        will
+                        welcome you with open arms.</p>
+                    <m-button class="bg-meeow-green text-white">Join Meeow free</m-button>
+                </div>
+                <img class="my-20" src="@/public/StripFaces.png" />
             </div>
         </div>
     </div>
