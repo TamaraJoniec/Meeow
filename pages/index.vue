@@ -6,9 +6,9 @@
     <div>
         <m-nav />
         <m-header />
-        <div>
-            <section class="flex">
-                <div class="flex-col items-start text-left ml-20 mt-20 text-grey z-1">
+        <div class="relative">
+            <section class="flex space-x-64 m-20">
+                <div class="flex-col items-start text-left mt-20 text-grey z-1 pl-10">
                     <p class='text-6xl font-bold'>Make new connections.
                         <br /> Find new clients.
                         <br /> Every day.
@@ -26,22 +26,13 @@
                         <m-button color="white" text-color="black" class="text-grey outline my-5">See all
                             meetings</m-button>
                     </div>
-                </div>
-                <m-laptop class="items-end mr-10 mt-20 z-[10]"></m-laptop>
+                </div> <m-laptop class="relative top-32 right-32 z-[1]"></m-laptop>
             </section>
-            <div class="overflow-x-hidden w-screen">
-                <div class="bg-meeow-blue rounded-[50%] w-[180vw] h-[150%] bg-circle relative right-[40%]">
-                    <div class="flex flex-col flex-1 items-center mt-35 pt-20 text-white text-2xl">
-                        <h1>How can Meeow change your business forever?</h1>
-                        <img src="@/assets/poster.jpeg" class="rounded-sm mt-10 w-100 h-80 px-40" />
-                        <m-testimonial />
-                    </div>
-                </div>
-            </div>
-        </div> 
+            <m-blue-background />
+        </div>
         <m-carroussel class="max-w-screen relative bottom-0" />
         <m-slides />
-</div>
+    </div>
 </template>
 
 <style scoped></style>
