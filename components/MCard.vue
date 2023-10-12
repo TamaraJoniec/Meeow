@@ -14,6 +14,6 @@ console.log(props.meeow);
         <m-button class="rounded-sm px-6 py-2 bg-white absolute bottom-2 right-2" color="white" :class="[`text-$`]"
          >Book
             ahead</m-button>
-    
+    <nuxt-link to=""></nuxt-link>
     </div>
 </template>

@@ -6,7 +6,7 @@
     <div>
         <m-nav />
         <m-header />
-        <main>
+        <div>
             <section class="flex">
                 <div class="flex-col items-start text-left ml-20 mt-20 text-grey z-1">
                     <p class='text-6xl font-bold'>Make new connections.
@@ -38,11 +38,10 @@
                     </div>
                 </div>
             </div>
-
-            <m-carroussel class="max-w-screen absolute bottom-0" />
-        </main>
-    </div>
+        </div> 
+        <m-carroussel class="max-w-screen relative bottom-0" />
+        <m-slides />
+</div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

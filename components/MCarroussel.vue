@@ -8,7 +8,7 @@ import { meeows } from './meeows';
 
 <template>
   <div class="carousel ">
-    <div class="inner flex flex-row relative w-screen" dir="ltr">
+    <div class="inner flex flex-row relative" dir="ltr">
       <!-- for loop is only telling us what to do -->
       <div class="card" v-for="meeow in meeows" :key="meeow.id">
         <!-- inside this div we need to have the thing that are going to show for the loop -->
@@ -18,8 +18,6 @@ import { meeows } from './meeows';
       </div>
     </div>
   </div>
-  <m-arrow class="rotate-180" />
-  <m-arrow />
 
 </template>
 
