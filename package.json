@@ -17,6 +17,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "flag-icons": "^6.11.1",
     "luxon": "^3.4.3",
     "video.js": "^7.21.5",
     "vue-video-player": "^6.0.0",
