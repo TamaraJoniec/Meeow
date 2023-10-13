@@ -7,8 +7,8 @@
     <div>
         <m-nav />
         <m-header />
-        <div class="relative">
-            <section class="flex space-x-64 m-16">
+        <div class="relative bg-gradient-to-t from-gray-300">
+            <section class="flex space-x-64 m-16 ">
                 <div class="flex-col items-start text-left mt-20 text-grey z-1 pl-10">
                     <p class='text-6xl font-bold'>Make new connections.
                         <br /> Find new clients.
@@ -27,19 +27,20 @@
                         <m-button color="white" text-color="black" class="text-grey outline my-5">See all
                             meetings</m-button>
                     </div>
-                </div> <m-laptop class="relative top-32 right-32 z-[1]"></m-laptop>
+                </div> <m-laptop class="relative top-32 right-32 z-20"></m-laptop>
             </section>
             <m-blue-background />
         </div>
         <!-- carousel -->
         <div class="mt-32 mx-20">
-            <div class="flex flex-row mx-10">
+            <div class="flex flex-row">
                 <p class="text-2xl font-semibold ml-10">Lots of networking opportunities… every day</p>
                 <m-button2 class="bg-meeow-green text-white ml-10">See all</m-button2>
             </div>
             <m-carroussel class="max-w-screen relative bottom-0" />
         </div>
         <m-slides />
+        <!-- blue CTA -->
         <div class="overflow-hidden h-[100vh] pb-20 relative">
             <div class=" bg-meeow-blue rounded-[50%] w-[180vw] h-[180vh] bg-circle relative right-[40%]">
             </div>
@@ -55,6 +56,14 @@
                 </div>
                 <img class="my-20" src="@/public/StripFaces.png" />
             </div>
+        </div>
+        <div class="flex flex-col my-40 space-y-10 justify-center items-center">
+            <p class="text-6xl">
+                Start your journey now… FREE forever
+            </p>
+            <p class="text-lg max-w-3xl text-center">
+                The more conversations you have, the more opportunities you stand to find. Start making new connections straight away and find your path to success.
+            </p>   
         </div>
     </div>
 </template>
