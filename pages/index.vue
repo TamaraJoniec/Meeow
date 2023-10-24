@@ -70,7 +70,9 @@
         <m-carroussel class="max-w-screen relative bottom-0" />
         <div class="h-[64] w-1594 bg-gray-100 m-10 p-2 pl-3 font-semibold">Tomorrow</div>
         <m-carroussel class="max-w-screen relative bottom-0 p-10" />
-        <m-button class="bg-meeow-green text-white">See all Meeows</m-button>
+        <div class="m-20 flex justify-center"> 
+            <m-button class="bg-meeow-green text-white">See all Meeows</m-button>
+        </div>
     </div>
 </template>
 
