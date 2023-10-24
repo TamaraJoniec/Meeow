@@ -38,21 +38,21 @@ const count = ref(1);
 // return to beginning when reaching the last one
 function nextCard() {
     // if count is the length of the array, return to the start
-    if (count.value === testimonials.length - 1){
+    if (count.value === testimonials.length - 1) {
         // set value to 0
         count.value = 0
     } else {
         count.value++
-    }   
+    }
 }
 function previousCard() {
     // if count is the length of the array, return to the start
-    if (count.value === 0){
+    if (count.value === 0) {
         // set value to 0
         count.value = testimonials.length - 1
     } else {
         count.value--
-    }   
+    }
 }
 
 
@@ -77,9 +77,10 @@ function previousCard() {
                 <div class="flex flex-row gap-6 absolute bottom-20 left-[32%] ">
                     <m-arrow @click="previousCard" class="cursor-pointer" />
                     <div class="flex items-center justify-center gap-4 ">
-                        <div class="rounded-full w-2 h-2 bg-white"></div>
-                        <div class="rounded-full w-2 h-2 border-solid border-2 border-white bg-transparent"></div>
-                        <div class="rounded-full w-2 h-2 border-solid border-2 border-white bg-transparent"></div>
+                        <div class="rounded-full w-2 h-2 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none duration-700 cursor-pointer"
+                            v-for="dot in testimonials.length"
+                            :class="dot === count + 1 ? 'bg-white' : 'bg-transparent border border-white'"
+                            @click="count = dot - 1"></div>
                     </div>
                     <m-arrow @click="nextCard" class="rotate-180 cursor-pointer" />
                 </div>

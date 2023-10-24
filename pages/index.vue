@@ -62,9 +62,15 @@
                 Start your journey now… FREE forever
             </p>
             <p class="text-lg max-w-3xl text-center">
-                The more conversations you have, the more opportunities you stand to find. Start making new connections straight away and find your path to success.
-            </p>   
+                The more conversations you have, the more opportunities you stand to find. Start making new connections
+                straight away and find your path to success.
+            </p>
         </div>
+        <div class="h-[64] w-1594 bg-gray-100 m-10 p-2 pl-3 font-semibold">Today</div>
+        <m-carroussel class="max-w-screen relative bottom-0" />
+        <div class="h-[64] w-1594 bg-gray-100 m-10 p-2 pl-3 font-semibold">Tomorrow</div>
+        <m-carroussel class="max-w-screen relative bottom-0 p-10" />
+        <m-button class="bg-meeow-green text-white">See all Meeows</m-button>
     </div>
 </template>
 
