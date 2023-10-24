@@ -34,6 +34,28 @@ const testimonials = [
 
 // count, click next, next item in the array
 const count = ref(1);
+
+// return to beginning when reaching the last one
+function nextCard() {
+    // if count is the length of the array, return to the start
+    if (count.value === testimonials.length - 1){
+        // set value to 0
+        count.value = 0
+    } else {
+        count.value++
+    }   
+}
+function previousCard() {
+    // if count is the length of the array, return to the start
+    if (count.value === 0){
+        // set value to 0
+        count.value = testimonials.length - 1
+    } else {
+        count.value--
+    }   
+}
+
+
 </script>
 <template>
     <div class='relative flex flex-col w-[35%] m-20 pr-64 pb-40 mb-40'>
@@ -53,13 +75,13 @@ const count = ref(1);
                     </h5>
                 </div>
                 <div class="flex flex-row gap-6 absolute bottom-20 left-[32%] ">
-                    <m-arrow />
+                    <m-arrow @click="previousCard" class="cursor-pointer" />
                     <div class="flex items-center justify-center gap-4 ">
                         <div class="rounded-full w-2 h-2 bg-white"></div>
                         <div class="rounded-full w-2 h-2 border-solid border-2 border-white bg-transparent"></div>
                         <div class="rounded-full w-2 h-2 border-solid border-2 border-white bg-transparent"></div>
                     </div>
-                    <m-arrow class="rotate-180" />
+                    <m-arrow @click="nextCard" class="rotate-180 cursor-pointer" />
                 </div>
             </div>
         </div>
