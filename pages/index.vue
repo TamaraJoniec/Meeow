@@ -7,7 +7,7 @@
     <div>
         <m-nav />
         <m-header />
-        <div class="relative bg-gradient-to-t from-gray-300">
+        <div class="relative bg-gradient-to-t from-gray-300 md:flex">
             <section class="flex space-x-64 m-16 ">
                 <div class="flex-col items-start text-left mt-20 text-grey z-1 pl-10">
                     <p class='text-6xl font-bold'>Make new connections.
@@ -15,13 +15,13 @@
                         <br /> Every day.
                     </p>
                     <br />
-                    <p class='text-xl font-light whitespace-normal'>
+                    <p class='text-xl font-light whitespace-normal '>
                         Network with new people from around the corner
                         <br />and around the world in groups of no more than 4.
                         <br />
                         Real conversations lead to real outcomes.
                     </p>
-                    <div class="flex gap-3">
+                    <div class="flex gap-3 ">
                         <m-button color="bg-meeow-green" text-color="white" class="text-white bg-meeow-green-2 my-5">Join
                             Meeow Free</m-button>
                         <m-button color="white" text-color="black" class="text-grey outline my-5">See all
@@ -72,6 +72,9 @@
         <m-carroussel class="max-w-screen relative bottom-0 p-10" />
         <div class="m-20 flex justify-center"> 
             <m-button class="bg-meeow-green text-white">See all Meeows</m-button>
+        </div>
+        <div class="bg-meeow-blue rounded h-100">
+
         </div>
     </div>
 </template>
